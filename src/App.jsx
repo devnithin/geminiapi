@@ -4,10 +4,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { MessageCircle, Scissors, Type, RefreshCw, Check } from "lucide-react";
-import dotenv from 'dotenv';
+
 const App = () => {
-  dotenv.config();
-  const genAI = new GoogleGenerativeAI(process.env.API_URL);
+  
+  const genAI = new GoogleGenerativeAI(import.meta.env.API_URL);
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
