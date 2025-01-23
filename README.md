@@ -1,8 +1,41 @@
-# React + Vite
+# Nithin AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+The Nithin AI Assistant is a web app that provides text analysis and manipulation capabilities using the Google Gemini API.
 
-Currently, two official plugins are available:
+![Nithin AI Assistant Screenshot](nithin-ai-assistant.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Response generation
+- Summarization
+- Grammar correction
+- Paraphrasing
+
+## Usage
+1. Enter text in the input field.
+2. Click a button for the desired operation.
+3. View the result in the "Response" section.
+
+## Tech Stack
+- React.js
+- Google Gemini API
+- Tailwind CSS
+- Lucide icons
+- shadcn/ui
+
+## Setup
+1. Clone the repo
+2. Install dependencies (`npm install`)
+3. Set Gemini API key in `.env` 
+4. Start dev server (`npm run dev`)
+5. Open app at `http://localhost:5173`
+
+## Contributing
+1. Fork the repo
+2. Create a new branch
+3. Make changes and commit
+4. Push to your fork
+5. Submit a pull request
+
+## License
+This project is licensed under the MIT License.
